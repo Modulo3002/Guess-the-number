@@ -10,27 +10,27 @@ if (welkom != null) {
 }
 
 const guess = prompt("Enter a number between 0 and 25 to start guessing...")
-if (guess === getRandomNumberBetween){
+if (guess === getRandomNumberBetween(0, 25)){
     const correct = alert("Congratulations, you have won the game!");
 }
 else {
     const helaas = prompt("Helaas probeer opnieuw, je hebt nog 4 kansen over");
-    if (guess === getRandomNumberBetween){
+    if (guess === getRandomNumberBetween(0, 25)){
         const correct = alert("Congratulations, you have won the game!");
     }
     else {
         const helaas = prompt("Helaas probeer opnieuw, je hebt nog 3 kansen over");
-        if (guess === getRandomNumberBetween){
+        if (guess === getRandomNumberBetween(0, 25)){
             const correct = alert("Congratulations, you have won the game!");
         }
         else {
             const helaas = prompt("Helaas probeer opnieuw, je hebt nog 2 kansen over");
-            if (guess === getRandomNumberBetween){
+            if (guess === getRandomNumberBetween(0, 25)){
                 const correct = alert("Congratulations, you have won the game!");
             }
             else {
                 const helaas = prompt("Helaas probeer opnieuw, je hebt nog 1 kans over");
-                if (guess === getRandomNumberBetween){
+                if (guess === getRandomNumberBetween(0, 25)){
                     const correct = alert("Congratulations, you have won the game!");
                 }
                 else verloren = alert("Helaas, je hebt verlopen!")
